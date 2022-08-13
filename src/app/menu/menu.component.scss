@@ -2,6 +2,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
+    top: 0;
     height: 80px;
     z-index: 1;
     display: flex;
@@ -11,6 +12,7 @@ header {
     padding-right: 120px;
     img {
         height: 50px;
+        cursor: pointer;
     }
     a {
         text-decoration: none;
