@@ -1,0 +1,11 @@
+<div class="slideshow-container">
+    <img *ngIf="showImage" class="img-slideshow" src="assets/img/{{ images[currentImage] }}">
+    <!--*ngIf = if abfrage der ts funktion-->
+</div>
+
+<div class="slideshow-container slideshow-overlay">
+    <p *ngIf="showImage" class="fadeIn">
+        {{headlines [currentImage]}}
+        <!--[[]] können varbale von ts hinzugefügt werden-->
+    </p>
+</div>
